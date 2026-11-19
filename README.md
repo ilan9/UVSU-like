@@ -5,7 +5,7 @@ ENGLISH
 
 Heavily inspired by UVSU, this platformer features an asymmetrical time-loop mechanic. Each standard level unfolds in 3 distinct phases:
 
-Phase 1: You play as the hero. Your goal is to reach the chest as quickly as possible.
+Phase 1: You play as the hero. Your goal is to reach the chest as quickly as possible.\n
 Phase 2: You switch sides and play as the monster! Your goal is to intercept and eliminate the hero's ghost (which perfectly replicates your movements from Phase 1) before it reaches the chest.
 Phase 3: You take control of the hero once again. You must reach the chest within the time limit, but this time, you have to dodge the monster's ghost (which mimics your actions from Phase 2).
 
