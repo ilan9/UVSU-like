@@ -1,5 +1,5 @@
 # UVSU-like
-First project on Godot
+First project on Godot  
 You can play on itchi.io, https://lalan96.itch.io/uvsu-like
 
 ENGLISH
