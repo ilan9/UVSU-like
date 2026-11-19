@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://bq56ioxt60cev"]
+
+[ext_resource type="PackedScene" uid="uid://ba2ypadgo64ka" path="res://scene/level/level_form.tscn" id="1_mm6v6"]
+[ext_resource type="Script" uid="uid://deo0f61qjwmgy" path="res://script/level/tuto_level1.gd" id="2_ke3pq"]
+
+[node name="level_1" unique_id=1602969536 instance=ExtResource("1_mm6v6")]
+
+[node name="tuto" type="CanvasLayer" parent="." index="10" unique_id=371985967]
+script = ExtResource("2_ke3pq")
+
+[node name="tuto_1" type="Label" parent="tuto" index="0" unique_id=1474393323]
+visible = false
+z_index = -11
+offset_left = 112.0
+offset_top = 391.0
+offset_right = 421.0
+offset_bottom = 467.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.5294118)
+theme_override_font_sizes/font_size = 40
+text = "Go to the chest"
+
+[node name="tuto_2" type="Label" parent="tuto" index="1" unique_id=937723720]
+visible = false
+z_index = -11
+offset_left = 658.0
+offset_top = 397.0
+offset_right = 976.0
+offset_bottom = 473.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.5294118)
+theme_override_font_sizes/font_size = 40
+text = "Shoot the player"
+
+[node name="tuto_3" type="Label" parent="tuto" index="2" unique_id=2000357095]
+visible = false
+z_index = -11
+offset_left = 112.0
+offset_top = 391.0
+offset_right = 819.0
+offset_bottom = 467.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.5294118)
+theme_override_font_sizes/font_size = 40
+text = "Go to the chest and dodge the arrow"

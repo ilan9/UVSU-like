@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://byylx3lta42ml"]
+
+[ext_resource type="Script" uid="uid://cxctwb2ffvhmx" path="res://script/select_niv.gd" id="1_rj85w"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_rj85w"]
+device = -1
+keycode = 4194305
+
+[sub_resource type="Shortcut" id="Shortcut_1rln1"]
+events = [SubResource("InputEventKey_rj85w")]
+
+[node name="select_niv" type="Control" unique_id=1526704027]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 51.0
+offset_top = 26.0
+offset_right = 1102.0
+offset_bottom = 599.0
+script = ExtResource("1_rj85w")
+nbr_niv = 5
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=891728953]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 25.0
+offset_right = 1050.0
+offset_bottom = 426.0
+theme_override_constants/h_separation = 50
+theme_override_constants/v_separation = 50
+columns = 5
+
+[node name="Retour" type="Button" parent="." unique_id=973696790]
+layout_mode = 0
+offset_left = -7.0
+offset_top = 534.0
+offset_right = 1045.0
+offset_bottom = 606.0
+theme_override_font_sizes/font_size = 50
+shortcut = SubResource("Shortcut_1rln1")
+text = "BACK"
+
+[connection signal="button_down" from="Retour" to="." method="_on_retour_button_down"]

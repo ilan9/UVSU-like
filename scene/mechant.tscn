@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bmfpucokp6wx"]
+
+[ext_resource type="PackedScene" uid="uid://muarewiq6m5j" path="res://scene/player.tscn" id="1_to7ja"]
+[ext_resource type="Script" uid="uid://dva4vr1sfkmqs" path="res://script/mechant/mechant.gd" id="2_7bvp0"]
+
+[node name="mechant" unique_id=1975579767 instance=ExtResource("1_to7ja")]
+script = ExtResource("2_7bvp0")
+
+[node name="AnimatedSprite2D" parent="." index="0" unique_id=1956619184]
+modulate = Color(1, 0, 0, 1)

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://buqypb1eufp3s"]
+
+[ext_resource type="PackedScene" uid="uid://mw2lqikx0tey" path="res://scene/fantome_player.tscn" id="1_2rc33"]
+
+[node name="fantome_mechant" unique_id=1509556265 groups=["fantome_mechant"] instance=ExtResource("1_2rc33")]
+modulate = Color(1, 0, 0, 0.5529412)
+est_mechant = true

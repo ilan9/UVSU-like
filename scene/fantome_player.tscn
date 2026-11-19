@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://mw2lqikx0tey"]
+
+[ext_resource type="SpriteFrames" uid="uid://b2gm575jdity6" path="res://assets/autre/player_anim.tres" id="1_b4uc6"]
+[ext_resource type="Script" uid="uid://b8e63pohs72m1" path="res://script/fantome.gd" id="1_ym32f"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ym32f"]
+radius = 6.0
+height = 22.0
+
+[node name="fantome_player" type="CharacterBody2D" unique_id=1509556265 groups=["fantome_player"]]
+collision_layer = 2
+script = ExtResource("1_ym32f")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1232163902]
+modulate = Color(1, 1, 1, 0.69411767)
+self_modulate = Color(1, 1, 1, 0.5764706)
+sprite_frames = ExtResource("1_b4uc6")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=41249741]
+position = Vector2(1, 5)
+shape = SubResource("CapsuleShape2D_ym32f")

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://kjpj3koheqrk"]
+
+[ext_resource type="Script" uid="uid://b8u8olanip5v5" path="res://script/props/fleche.gd" id="1_vxgnn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_enmtw"]
+size = Vector2(517.5, 122.00006)
+
+[node name="fleche" type="Area2D" unique_id=95990813]
+scale = Vector2(0.05, 0.05)
+collision_mask = 3
+script = ExtResource("1_vxgnn")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1527571268]
+rotation = 3.1415927
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1642669426]
+position = Vector2(18.749939, 1.8189894e-12)
+scale = Vector2(0.9999997, 0.9999997)
+shape = SubResource("RectangleShape2D_enmtw")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

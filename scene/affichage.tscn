@@ -1,0 +1,90 @@
+[gd_scene format=3 uid="uid://cw4le8fv3xltv"]
+
+[ext_resource type="Script" uid="uid://dyuwvajdxf6ol" path="res://script/affichage.gd" id="1_h5pil"]
+
+[node name="affichage" type="CanvasLayer" unique_id=283561027]
+script = ExtResource("1_h5pil")
+
+[node name="phase_player" type="Label" parent="." unique_id=362109582]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "0"
+horizontal_alignment = 1
+
+[node name="phase_mechant" type="Label" parent="." unique_id=832057069]
+offset_left = 1081.0
+offset_right = 1153.0
+offset_bottom = 23.0
+text = "0"
+horizontal_alignment = 1
+
+[node name="timer" type="Label" parent="." unique_id=1598297163]
+offset_left = 4.0
+offset_right = 1148.0
+offset_bottom = 23.0
+text = "15.00 secondes"
+horizontal_alignment = 1
+
+[node name="transition" type="Label" parent="." unique_id=657145714]
+visible = false
+offset_left = -2.0
+offset_top = 1.0
+offset_right = 1153.0
+offset_bottom = 646.0
+theme_override_font_sizes/font_size = 83
+text = "Changement de phase"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="victoire" type="Label" parent="." unique_id=1094132654]
+visible = false
+offset_left = -2.0
+offset_top = 1.0
+offset_right = 1153.0
+offset_bottom = 646.0
+theme_override_font_sizes/font_size = 83
+text = "Victoire"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="debut" type="Label" parent="." unique_id=1484646909]
+visible = false
+offset_left = -2.0
+offset_top = 1.0
+offset_right = 1153.0
+offset_bottom = 646.0
+theme_override_font_sizes/font_size = 83
+text = "Prêt ?"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="defaite" type="Label" parent="." unique_id=2099815928]
+visible = false
+offset_left = -2.0
+offset_top = 1.0
+offset_right = 1153.0
+offset_bottom = 646.0
+theme_override_font_sizes/font_size = 83
+text = "Perdu
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SpriteCoeur" type="Sprite2D" parent="." unique_id=1949005430]
+z_index = 1
+position = Vector2(268.5, 23.250002)
+scale = Vector2(0.108, 0.1)
+hframes = 4
+frame = 3
+
+[node name="press_r" type="Label" parent="." unique_id=1152673136]
+visible = false
+offset_left = 2.0
+offset_top = 587.0
+offset_right = 1151.0
+offset_bottom = 647.0
+theme_override_colors/font_color = Color(1, 1, 1, 0.60784316)
+theme_override_font_sizes/font_size = 30
+text = "Press R to undo"
+horizontal_alignment = 1
+vertical_alignment = 1

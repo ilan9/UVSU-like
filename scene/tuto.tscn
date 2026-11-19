@@ -1,0 +1,200 @@
+[gd_scene format=3 uid="uid://bgpqa4i0mpu1e"]
+
+[ext_resource type="Texture2D" uid="uid://cgca7vjrbyuvi" path="res://assets/touche/keyboard_q_outline.png" id="1_qcibp"]
+[ext_resource type="Texture2D" uid="uid://dxjj1er2ye88m" path="res://assets/touche/keyboard_s_outline.png" id="2_qi88r"]
+[ext_resource type="Texture2D" uid="uid://b3bdb88cq4yfl" path="res://assets/touche/keyboard_z_outline.png" id="3_ejnnn"]
+[ext_resource type="Texture2D" uid="uid://db5lvdbfmi4mq" path="res://assets/touche/keyboard_arrow_left_outline.png" id="4_b8bmy"]
+[ext_resource type="Texture2D" uid="uid://by6ewuvcynfi7" path="res://assets/touche/keyboard_arrow_right_outline.png" id="5_1ga0y"]
+[ext_resource type="Texture2D" uid="uid://b3flc2p11fc5k" path="res://assets/touche/keyboard_arrow_up_outline.png" id="6_0ejg5"]
+[ext_resource type="Texture2D" uid="uid://lfnxdwwi2ump" path="res://assets/touche/keyboard_arrow_down_outline.png" id="7_g08tr"]
+[ext_resource type="Texture2D" uid="uid://behudto2aig86" path="res://assets/touche/keyboard_space_outline.png" id="8_rc2qj"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1m5jw"]
+load_path = "res://.godot/imported/keyboard_d_outline.png-d77abb9ce9203ac1f66c8098d347ff8b.ctex"
+
+[node name="tuto" type="CanvasLayer" unique_id=1185138614]
+
+[node name="Label" type="Label" parent="." unique_id=730261136]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 332.0
+offset_top = 245.0
+offset_right = 469.0
+offset_bottom = 285.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Move right :"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="." unique_id=841934927]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 387.0
+offset_top = 291.0
+offset_right = 420.0
+offset_bottom = 346.0
+theme_override_font_sizes/font_size = 40
+text = "/"
+
+[node name="Label3" type="Label" parent="." unique_id=1089401331]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 583.0
+offset_top = 248.0
+offset_right = 720.0
+offset_bottom = 288.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Move left :"
+horizontal_alignment = 1
+
+[node name="Label4" type="Label" parent="." unique_id=1283512074]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 640.0
+offset_top = 291.0
+offset_right = 673.0
+offset_bottom = 346.0
+theme_override_font_sizes/font_size = 40
+text = "/"
+
+[node name="Label5" type="Label" parent="." unique_id=1584161956]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 897.0
+offset_top = 53.0
+offset_right = 1034.0
+offset_bottom = 93.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Jump :"
+horizontal_alignment = 1
+
+[node name="Label6" type="Label" parent="." unique_id=1607425386]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 954.0
+offset_top = 96.0
+offset_right = 987.0
+offset_bottom = 151.0
+theme_override_font_sizes/font_size = 40
+text = "/"
+
+[node name="Label7" type="Label" parent="." unique_id=868338960]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 22.0
+offset_top = 130.0
+offset_right = 159.0
+offset_bottom = 170.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Down :"
+horizontal_alignment = 1
+
+[node name="Label11" type="Label" parent="." unique_id=2060202007]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 14.0
+offset_top = 372.0
+offset_right = 151.0
+offset_bottom = 412.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Down "
+horizontal_alignment = 1
+
+[node name="Label8" type="Label" parent="." unique_id=1692623998]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 79.0
+offset_top = 173.0
+offset_right = 112.0
+offset_bottom = 228.0
+theme_override_font_sizes/font_size = 40
+text = "/"
+
+[node name="Label9" type="Label" parent="." unique_id=1898255509]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 375.0
+offset_top = 456.0
+offset_right = 512.0
+offset_bottom = 496.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Shoot :"
+horizontal_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1392362792]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 410.0
+offset_top = 289.0
+offset_right = 475.0
+offset_bottom = 353.0
+texture = SubResource("CompressedTexture2D_1m5jw")
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=282991687]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 662.0
+offset_top = 286.0
+offset_right = 726.0
+offset_bottom = 350.0
+texture = ExtResource("1_qcibp")
+
+[node name="TextureRect3" type="TextureRect" parent="." unique_id=1169586753]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 96.0
+offset_top = 169.0
+offset_right = 160.0
+offset_bottom = 233.0
+texture = ExtResource("2_qi88r")
+
+[node name="TextureRect4" type="TextureRect" parent="." unique_id=1385496579]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 977.0
+offset_top = 94.0
+offset_right = 1041.0
+offset_bottom = 158.0
+texture = ExtResource("3_ejnnn")
+
+[node name="TextureRect5" type="TextureRect" parent="." unique_id=1769201610]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 571.0
+offset_top = 287.0
+offset_right = 635.0
+offset_bottom = 351.0
+texture = ExtResource("4_b8bmy")
+
+[node name="TextureRect6" type="TextureRect" parent="." unique_id=1507666240]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 316.0
+offset_top = 288.0
+offset_right = 380.0
+offset_bottom = 352.0
+texture = ExtResource("5_1ga0y")
+
+[node name="TextureRect7" type="TextureRect" parent="." unique_id=2098523803]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 884.0
+offset_top = 95.0
+offset_right = 948.0
+offset_bottom = 159.0
+texture = ExtResource("6_0ejg5")
+
+[node name="Label10" type="Label" parent="." unique_id=1287230095]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 234.0
+offset_top = 127.0
+offset_right = 371.0
+offset_bottom = 167.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Jump "
+horizontal_alignment = 1
+
+[node name="TextureRect8" type="TextureRect" parent="." unique_id=2098245995]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 14.0
+offset_top = 170.0
+offset_right = 78.0
+offset_bottom = 234.0
+texture = ExtResource("7_g08tr")
+
+[node name="TextureRect9" type="TextureRect" parent="." unique_id=1586373236]
+modulate = Color(1, 1, 1, 0.5294118)
+offset_left = 388.0
+offset_top = 474.0
+offset_right = 494.0
+offset_bottom = 572.0
+texture = ExtResource("8_rc2qj")

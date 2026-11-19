@@ -1,0 +1,6 @@
+extends Node
+
+signal phase_player_perdu
+signal phase_mechant_perdu
+signal phase_mechant_gagne
+signal phase_player_gagne

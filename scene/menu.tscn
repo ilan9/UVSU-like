@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://c8f1fav8g2gn0"]
+
+[ext_resource type="Script" uid="uid://c536tb7nkkb5f" path="res://script/menu.gd" id="1_e5g8k"]
+
+[node name="Menu" type="Control" unique_id=1295115416]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_e5g8k")
+
+[node name="titre" type="Label" parent="." unique_id=253500682]
+layout_mode = 0
+offset_right = 1150.0
+offset_bottom = 223.0
+theme_override_colors/font_color = Color(0.9607843, 0.9607843, 0.9607843, 1)
+theme_override_font_sizes/font_size = 80
+text = "Rewind the Loop"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=962431952]
+z_index = -10
+layout_mode = 0
+offset_right = 1153.0
+offset_bottom = 689.0
+color = Color(0, 0, 0, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1405018253]
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 0.5
+offset_left = 343.0
+offset_top = 247.0
+offset_right = 798.0
+offset_bottom = 798.0
+theme_override_constants/separation = 75
+
+[node name="jouer" type="Button" parent="VBoxContainer" unique_id=375090722]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9607843, 0.9607843, 0.9607843, 1)
+theme_override_colors/font_hover_color = Color(0.23, 0.23, 0.23, 1)
+theme_override_constants/h_separation = 24
+theme_override_font_sizes/font_size = 50
+text = "Jouer"
+
+[node name="parametre" type="Button" parent="VBoxContainer" unique_id=695818528]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.3, 0.3, 0.3, 1)
+theme_override_colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_constants/h_separation = 24
+theme_override_font_sizes/font_size = 50
+text = "Paramètre"
+
+[node name="quitter" type="Button" parent="VBoxContainer" unique_id=1918190379]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9607843, 0.9607843, 0.9607843, 1)
+theme_override_colors/font_hover_color = Color(0.23, 0.23, 0.23, 1)
+theme_override_constants/h_separation = 24
+theme_override_font_sizes/font_size = 50
+text = "Quitter
+"
+icon_alignment = 1
+
+[connection signal="pressed" from="VBoxContainer/jouer" to="." method="_on_jouer_pressed"]
+[connection signal="pressed" from="VBoxContainer/quitter" to="." method="_on_quitter_pressed"]
